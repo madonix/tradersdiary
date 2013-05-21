@@ -1,0 +1,10 @@
+2013-05-21 12:04:27 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/tradersdiary/app/Config/bootstrap.php(74): CakePlugin::load('DebugKit')
+#1 /var/www/tradersdiary/lib/Cake/Core/Configure.php(93): include('/var/www/trader...')
+#2 /var/www/tradersdiary/lib/Cake/bootstrap.php(170): Configure::bootstrap(true)
+#3 /var/www/tradersdiary/app/webroot/index.php(91): include('/var/www/trader...')
+#4 {main}
